@@ -7,9 +7,16 @@ home = os.getenv("HOME")+"/"
 folder = home+"spirit-linux"
 if not os.path.exists(folder):
 	os.system("mkdir "+folder)
+	
 	if not os.path.exists(folder+"/spirit-log"):
 		newfile = open(folder+"/spirit-log", 'wt')
 		newfile.close()
+if not os.path.exists(folder+"/spirit-jailbreak"):
+	os.system("cp /usr/share/spirit-ui/spirit-jailbreak "+folder+"/spirit-jailbreak && chmod 777 "+folder+"/spirit-jailbreak")
+if not os.path.exists(folder+"/igor"):
+	os.system("cp -r /usr/share/spirit-ui/igor "+folder+"/igor")
+if not os.path.exists(folder+"/resources"):
+	os.system("cp -r /usr/share/spirit-ui/resources "+folder+"/resources")
 def on_button1_clicked(widget, data=None):
 		button1.set_sensitive(False)
 		button1.set_label(" ")

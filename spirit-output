@@ -1,2 +1,2 @@
 #!/bin/bash
-spirit-jailbreak >& $HOME/spirit-linux/spirit-log
+cd $HOME/spirit-linux/ && ./spirit-jailbreak >& spirit-log

@@ -1,0 +1,10 @@
+This is a Graphic User Interface for spirit-linux, spirit-jailbreak is a precompiled version of spirit-linux, for source please contact posixninja.
+
+
+INSTALL
+
+Go to root folder of spirit-linux and execute spirit-install
+
+sudo ./spirit-install
+
+If you have troubles, please contact Pasquale Ambrosini <pasquale.ambrosini@gmail.com>

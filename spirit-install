@@ -4,5 +4,7 @@ cp spirit-output /usr/share/spirit-ui
 cp main.py /usr/share/spirit-ui
 cp logo.png /usr/share/spirit-ui
 cp ui.glade /usr/share/spirit-ui
-cp spirit-jailbreak /usr/bin
+cp -r igor /usr/share/spirit-ui/igor
+cp -r resources /usr/share/spirit-ui/resources
+cp spirit-jailbreak /usr/share/spirit-ui
 cp spirit-start /usr/bin
