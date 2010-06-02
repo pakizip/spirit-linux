@@ -1,0 +1,8 @@
+#!/bin/bash 
+mkdir /usr/share/spirit-ui
+cp spirit-output /usr/share/spirit-ui
+cp main.py /usr/share/spirit-ui
+cp logo.png /usr/share/spirit-ui
+cp ui.glade /usr/share/spirit-ui
+cp spirit-jailbreak /usr/bin
+cp spirit-start /usr/bin

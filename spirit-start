@@ -1,0 +1,3 @@
+#!/bin/bash 
+cd /usr/share/spirit-ui
+env python main.py
